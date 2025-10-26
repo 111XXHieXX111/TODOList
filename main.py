@@ -1,6 +1,5 @@
 from flet import *
-from googletrans import Translator, LANGUAGES
-import time, pickle, os, locale, platform, ctypes
+import time, pickle, os
 
 Todos = []
 path = "TODOSaves.data"
