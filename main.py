@@ -94,7 +94,7 @@ def main(pg:Page):
         ])
     )
     
-    pg.add(ListView([maincont]))
+    pg.add(ListView([maincont], expand=True))
 
 if __name__ == "__main__":
     app(main)
